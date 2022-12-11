@@ -18,4 +18,3 @@ def test_insertAfter():
     assert linkedList.head.next.value == 3
     assert linkedList.tail.value == 2
     assert linkedList.tail.prev.value == 3
-    assert linkedList.tail.prev.value == 1
