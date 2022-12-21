@@ -4,6 +4,32 @@ class Node():
         self.next = None
         self.prev = None
 
+class SinglyLinkedList():
+    def __init__(self) -> None:
+        self.head = None
+        self.tail = None
+    
+    def setHead(self, nodeToInsert):
+        pass
+
+    def setTail(self, nodeToInsert):
+        pass
+
+    def insetBefore(self, node, nodeToInsert):
+        pass
+
+    def insertAfter(self, node, nodeToInsert):
+        pass
+    
+    def remove(self, node, nodeToInsert):
+        pass
+
+    def findValue(self, value):
+        pass
+    
+    def insertAtPosition(self, position):
+        pass
+
 class DoublyLinkedList():
     def __init__(self) -> None:
         self.head = None
