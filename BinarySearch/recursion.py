@@ -4,9 +4,8 @@ def binarySearch(array, target):
 def subBinarySearch(array, target, left, right):
     if left > right:
         return -1
-    mid = (left + right) // 2
-
-    pottentialMatch = array[mid]
+    
+    pottentialMatch = array[(mid := (left + right) // 2)]
 
     if target == pottentialMatch:
         return mid

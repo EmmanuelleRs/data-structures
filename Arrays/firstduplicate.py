@@ -1,12 +1,39 @@
-def first_duplicate(array):
-    count = {}
 
-    for num in array:
-        if num not in count:
-            count[num] = 0
-        count[num] += 1
+class FindFirstDuplicate():
+    def __init__(self, array: list):
+        self.array = array
+    
+    def using_dictionarie(self) -> -1:
+        """Find the first duplicate element into an array,
+        using a dictionarie.
 
-        if count[num] >= 2:
-            return num
-        
-    return -1
+        Args:
+            array: This is the list of integer where the algorith will search
+            the first duplicate element.
+
+        Returns:
+            int: return the firs duplicate element,
+            otherwise return -1
+        """
+
+        count = {}
+
+        for num in self.array:
+            if num not in count:
+                count[num] = 0
+            count[num] += 1
+
+            if count[num] >= 2:
+                return num
+            
+        return -1
+    
+    def using_set(self) -> -1:
+        this_set = set()
+
+        for element in self.array:
+            if element in this_set:
+                return element
+            this_set.add(element)
+            
+        return -1
