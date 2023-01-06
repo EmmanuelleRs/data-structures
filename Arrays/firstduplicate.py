@@ -1,4 +1,7 @@
 
+# O(n) time complexity since the array neads to be traversed al most once in case there's not duplicates in the array.
+# O(1) space complexity since were are storing just one dictionary to track the duplicate elements
+
 class FindFirstDuplicate():
     def __init__(self, array: list):
         self.array = array
