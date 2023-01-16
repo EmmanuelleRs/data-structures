@@ -8,16 +8,29 @@ My repository where I practice and study data structures and design algoriths wi
     - Rotate a Matrix
 - Strings
     - Valid IP Addresses
+    - Group Words By Anagrams
+    - Is Palindrome
+    - Min characters  For creating Words
 - Linked List
     - Linked List Constructor
     - Remove K element
     - Remove K element from end
+    - Reverse a LinkedList
+    - Palindromic LinkedList
 - Queus and Stacks
     - Max Stack Contructor 
 - Recursion
     - Fibonacci 
+    - Special Array Sum
+    - Reverse a Parentesis
+- Dynamic Programming
     -  Reverse Parentesis
+    - Fibonacci
 - Sorting Algorithms
+    - Bubble Sort
+    - Insertion Sort
+    - Selection
+
 
 ## For testing the code
 
